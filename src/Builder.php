@@ -4,7 +4,7 @@ class Builder
 {
     public static function createHTML()
     {
-        is_dir("build") ? system("mkdir build") : null;
+        is_dir("build") ? system("mkdir ../build") : null;
         file_put_contents("build/index.html", 
         '<!DOCTYPE html>
         <html lang="en">
