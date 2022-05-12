@@ -14,7 +14,7 @@ class Builder
             <title>test CD</title>
         </head>
         <body>
-            <img src="https://cdn.discordapp.com/attachments/955408274721734679/974216270444630036/unknown.png" alt="yay">
+            <img src="https://cdn.discordapp.com/attachments/955408274721734679/974216270444630036/unknown.png" alt="yah">
         </body>
         </html>'
     );
