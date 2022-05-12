@@ -8,6 +8,6 @@ final class Test extends TestCase
     {
         Builder::createHTML();
         $this->assertTrue(file_exists("build/index.html"));
-        system("rm hello.html");
+        system("rm build/index.html");
     }
 }
