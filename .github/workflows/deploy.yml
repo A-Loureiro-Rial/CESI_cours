@@ -2,13 +2,6 @@ name: deploy
 
 on:
   push:
-    branches:
-      - main
-
-name: PHP Composer
-
-on:
-  push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
