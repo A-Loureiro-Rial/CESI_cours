@@ -4,7 +4,7 @@ class Builder
 {
     public static function createHTML()
     {
-        file_put_contents("./index.html", 
+        file_put_contents("./build/index.html", 
         '<!DOCTYPE html>
         <html lang="en">
         <head>
