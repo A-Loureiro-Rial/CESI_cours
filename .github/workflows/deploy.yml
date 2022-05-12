@@ -41,9 +41,8 @@ jobs:
     - name: Run test suite
       run: composer run-script test
 
-    - uses: actions/checkout@v2
     - run: php src/Launcher.php
-    - uses: peaceiris/actions-gh-pages@v3
+    - uses: peaceiris/actions-gh-pages@v2
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: build
